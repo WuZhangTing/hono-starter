@@ -1,0 +1,62 @@
+# Dependencies
+node_modules
+.pnpm
+
+# Build outputs
+dist
+build
+
+# Development files
+.env*
+!.env.example
+
+# IDE and editor files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Docker files
+Dockerfile*
+docker-compose*
+
+# Documentation
+README.md
+*.md
+
+# Test files
+test
+tests
+**/*.test.*
+**/*.spec.*
+
+# Temporary files
+tmp
+temp
